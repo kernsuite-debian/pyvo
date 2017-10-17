@@ -9,14 +9,14 @@ Build-Depends: debhelper (>=9),
  python-all,
  python-setuptools,
  python-numpy (>= 1.4.0),
- python-astropy (>= 1.2.1),
+ python-astropy,
  python3-all,
  python3-numpy (>= 1.4.0),
- python3-astropy (>= 1.2.1)
+ python3-astropy
 Build-Depends-Indep:
  python3-setuptools,
- python-astropy-helpers (>= 1.2),
- python3-astropy-helpers (>= 1.2)
+ python-astropy-helpers,
+ python3-astropy-helpers
 Standards-Version: 3.9.8
 Homepage: https://pypi.python.org/pypi/pyvo
 Vcs-Git: https://anonscm.debian.org/cgit/debian-astro/packages/pyvo.git
@@ -27,7 +27,7 @@ Architecture: all
 Depends: ${misc:Depends},
  ${python:Depends},
  python-numpy (>= 1.4.0),
- python-astropy (>= 1.2.1)
+ python-astropy
 Description: Python library for data services of the Virtual observatory (VO)
  The pyvo module currently provides these main capabilities:
  Find archives that provide particular data of a particular type and/or relates
@@ -42,7 +42,7 @@ Architecture: all
 Depends: ${misc:Depends},
  ${python3:Depends},
  python3-numpy (>= 1.4.0),
- python3-astropy (>= 1.2.1)
+ python3-astropy
 Description: Python 3 library for data services of the Virtual observatory (VO)
  The pyvo module currently provides these main capabilities:
  Find archives that provide particular data of a particular type and/or relates
