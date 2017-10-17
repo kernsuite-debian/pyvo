@@ -1,0 +1,53 @@
+Source: pyvo
+Section: python
+Priority: optional
+Maintainer: Debian Astronomy Maintainers <debian-astro-maintainers@lists.alioth.debian.org>
+Uploaders: Josue Ortega <josue@debian.org>,
+  Paul Sladen <debian@paul.sladen.org>
+Build-Depends: debhelper (>=9),
+ dh-python,
+ python-all,
+ python-setuptools,
+ python-numpy (>= 1.4.0),
+ python-astropy (>= 1.2.1),
+ python3-all,
+ python3-numpy (>= 1.4.0),
+ python3-astropy (>= 1.2.1)
+Build-Depends-Indep:
+ python3-setuptools,
+ python-astropy-helpers (>= 1.2),
+ python3-astropy-helpers (>= 1.2)
+Standards-Version: 3.9.8
+Homepage: https://pypi.python.org/pypi/pyvo
+Vcs-Git: https://anonscm.debian.org/cgit/debian-astro/packages/pyvo.git
+Vcs-Browser: https://anonscm.debian.org/cgit/debian-astro/packages/pyvo.git
+
+Package: python-pyvo
+Architecture: all
+Depends: ${misc:Depends},
+ ${python:Depends},
+ python-numpy (>= 1.4.0),
+ python-astropy (>= 1.2.1)
+Description: Python library for data services of the Virtual observatory (VO)
+ The pyvo module currently provides these main capabilities:
+ Find archives that provide particular data of a particular type and/or relates
+ to a particular topic search an archive for datasets of a particular type.
+ Do simple searches on catalogs or databases get information about an object via
+ its name.
+ .
+ This is the Python 2 version of the package.
+
+Package: python3-pyvo
+Architecture: all
+Depends: ${misc:Depends},
+ ${python3:Depends},
+ python3-numpy (>= 1.4.0),
+ python3-astropy (>= 1.2.1)
+Description: Python 3 library for data services of the Virtual observatory (VO)
+ The pyvo module currently provides these main capabilities:
+ Find archives that provide particular data of a particular type and/or relates
+ to a particular topic search an archive for datasets of a particular type.
+ Do simple searches on catalogs or databases get information about an object via
+ its name.
+ .
+ This is the Python 3 version of the package.

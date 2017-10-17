@@ -1,0 +1,5 @@
+Tests: python3-pyvo
+Depends: python3-pyvo
+
+Tests: python-pyvo
+Depends: python-pyvo

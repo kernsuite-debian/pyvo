@@ -1,0 +1,4 @@
+# You must remove unused comment lines for the released package.
+removes-python-scripts.patch
+use_system_astropy_helpers.patch
+removes-version-generator.patch

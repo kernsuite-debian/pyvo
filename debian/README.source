@@ -1,0 +1,13 @@
+Building the Debian source package for pyvo
+=======================================================
+
+Pristine upstream source contains non-DFSG-free files
+-----------------------------------------------------
+
+The pristine upstream source contains obfuscated files, that are thereby
+not appropriate for use as source files. This violates DFSG §6.
+
+The ‘debian/repack’ program removes those files to create the Debian
+upstream source tarball.
+
+ -- Josue Ortega <josue@debian.org>  Sat, 13 Aug 2016 12:54:01 -0600

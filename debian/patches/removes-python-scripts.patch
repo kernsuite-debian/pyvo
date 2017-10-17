@@ -1,0 +1,15 @@
+Description: Removes unnecesary scripts generation 
+Author: Josue Ortega <josue@debian.org>
+Last-Update: 2016-08-13
+
+--- a/setup.py
++++ b/setup.py
+@@ -112,7 +112,7 @@
+ setup(name=PACKAGENAME,
+       version=VERSION,
+       description=DESCRIPTION,
+-      scripts=scripts,
++      #scripts=scripts,
+       requires=['astropy', 'requests', 'python_dateutil'],
+       install_requires=['astropy', 'requests', 'python_dateutil'],
+       provides=[PACKAGENAME],

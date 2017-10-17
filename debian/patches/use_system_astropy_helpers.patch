@@ -1,0 +1,15 @@
+Description: Changes to use system astropy helpers installation
+Author: Josue Ortega <josue@debian.org>
+Last-Update: 2016-08-13
+
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -12,7 +12,7 @@
+ norecursedirs = build docs/_build
+ 
+ [ah_bootstrap]
+-auto_use = True
++auto_use = False
+ 
+ [metadata]
+ package_name = pyvo

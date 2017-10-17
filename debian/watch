@@ -1,0 +1,4 @@
+version=3
+opts=dversionmangle=s/\+dfsg\.\d+$//,filenamemangle=s/.+\/v(\d\S*)\.tar\.gz/pyvo-$1\.tar\.gz/ \
+  https://github.com/pyvirtobs/pyvo/tags .*/v(\d\S*)\.tar\.gz \
+  debian debian/repack

@@ -1,0 +1,26 @@
+pyvo (0.5.0+dfsg-1) unstable; urgency=medium
+
+  * New upstream release (0.5.0):
+    - Updates debian/patches/removes-python-scripts.patch.
+  * debian/watch: Adds dversionmangle.
+
+ -- Josue Ortega <josue@debian.org>  Sun, 15 Jan 2017 11:54:35 -0600
+
+pyvo (0.4.1+dfsg-1) unstable; urgency=low
+
+  * New upstream release (0.4.1)
+  * debian/watch: use github tags upstream tarball source
+  * Minimum tests that just try and load the pyvo library
+  * Manually reimport changes in ../pyvo_0.3.1+dfsg.orig.tar.gz not in-tree
+  * debian/patches/removes-python-scripts.patch: Fix fuzz + minimise diff
+  * Fix debian/repack by explicitly naming/pre-expanding @nonfree_files
+  * Remove nonfree test inputs under: 'pyvo/{dal,registry}/tests/data/*.xml'
+  * Split minimum to Build-Depends-Indep: to allow auto-building; Uploaders
+
+ -- Paul Sladen <debian@paul.sladen.org>  Wed, 19 Oct 2016 00:03:02 +0200
+
+pyvo (0.0beta2~git20160808.c52cf43+dfsg-1) unstable; urgency=low
+
+  * Initial release. Closes: #832389
+
+ -- Josue Ortega <josue@debian.org>  Sat, 13 Aug 2016 16:46:06 -0600

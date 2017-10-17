@@ -1,0 +1,5 @@
+#!/usr/bin/python
+import pyvo
+assert pyvo.tools.plainxml.xml._MINIMUM_XMLPLUS_VERSION
+assert pyvo.linesearch.func_name == 'search'
+
