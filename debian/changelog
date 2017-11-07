@@ -1,3 +1,9 @@
+pyvo (0.5.0+dfsg-1kern2) xenial; urgency=medium
+
+  * change package signature
+
+ -- KERN packaging <packaging@kernsuite.info>  Tue, 07 Nov 2017 10:59:15 +0200
+
 pyvo (0.5.0+dfsg-1kern1) xenial; urgency=medium
 
   * Rebuild for KERN
