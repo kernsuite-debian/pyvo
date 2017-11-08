@@ -1,3 +1,9 @@
+pyvo (0.5.0+dfsg-1kern3) xenial; urgency=medium
+
+  * change back to old dependency syntax
+
+ -- KERN packaging <packaging@kernsuite.info>  Wed, 08 Nov 2017 16:38:17 +0200
+
 pyvo (0.5.0+dfsg-1kern2) xenial; urgency=medium
 
   * change package signature
